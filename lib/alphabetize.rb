@@ -1,5 +1,5 @@
 require 'pry'
-ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".to_a.split
+ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split("")
 binding.pry
 def alphabetize(arr)
   arr.sort_by do |word|
